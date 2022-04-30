@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Ubuntu", sans-serif;
+  
+}
+
+.openModalBtn {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: #7eacd6;
+  color: white;
+  font-size: medium;
+  font-weight: 1000;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.openModalBtn1 {
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 6px;
+  background-color: #7eacd6;
+  color: white;
+  font-size: medium;
+  font-weight: 1000;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.imglink {
+  display: flex;
+  justify-content: right;
+}
+
+
+main{
+  display: flex;
+  flex-direction: column; 
+  align-items: stretch;
+  min-height: 100%;
+}
+
+a,
+a:link{
+  text-decoration: none;
+  color: #212529;
+}
+
+.Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 60px;
+  padding: 10px 0;
+
+}
+
+
+.btn {
+  border: 2px dashed darkslateblue;
+  font-family: inherit; 
+  font-size: 3px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  background: transparent; 
+  padding: 0.5rem 0.75rem;
+}
+
+.Section {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 1rem 0;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  align-items: center;
+  height: 60vh;
+  margin: 0 20px;
+  border: 10px double gray;
+}
+
+.Img {
+  display: flex;
+    height: 20rem;
+    width: 15rem;
+    padding: 0.1rem;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  font-size: 1rem;
+}
+
+hr {
+  margin-top: 10;
+}

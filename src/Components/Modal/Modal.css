@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.modalContainer {
+    width: 700px;
+    height: 90vh;
+    border-radius: 12px;
+    background-color: #caf0f8;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    position: relative;
+    top: 30px;
+    overflow: scroll;
+}
+
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    bottom: 60px;
+}
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+
+.modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer .footer button {
+    width: 120px;
+    height: 35px;
+    margin: 10px;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#closeBtn {
+    background-color: blueviolet;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+.img {
+    display: block;
+    margin: auto;
+    height: 450px;
+    width: 450px;
+    position: relative;
+    bottom: 60px;
+   }
+
+   p {
+       font-size: large;
+       font-family: inherit;
+   }
+
+   h2 {
+       padding: 50px;
+       font-size: xx-large;
+   }

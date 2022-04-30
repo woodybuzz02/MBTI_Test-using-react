@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  ),
+  url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  background-position: center;
+}
+
+.imglink {
+  display: flex;
+  justify-content: right;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 100%;
+}
+
+a,
+a:link {
+  text-decoration: none;
+  color: #212529;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 60px;
+  padding: 10px 0;
+
+}
+
+
+.btn {
+  border: 2px dashed darkslateblue;
+  font-family: inherit;
+  font-size: 3px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  background: transparent;
+  padding: 0.5rem 0.75rem;
+}
+
+.name {
+  font: bolder;
+  font-size: 2rem;
+
+}
+
+.box_btn {
+  border: 2px dashed aqua;
+  height: 50px;
+  width: 150px;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  background: transparent;
+  padding: 0.25rem 0.5rem;
+}
+
+.Section {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 1rem 0;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  align-items: center;
+  height: 60vh;
+  margin: 0 20px;
+  border: 10px double gray;
+}
+
+.Img {
+  display: flex;
+  height: 20rem;
+  width: 15rem;
+  padding: 0.1rem;
+}
+
+
+h1{
+  padding: 1px;
+  font-size: 2.5rem;
+  color: navy;
+  font-weight: 1000;
+  cursor: pointer;
+  text-transform: uppercase;
+}

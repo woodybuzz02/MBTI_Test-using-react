@@ -1,0 +1,20 @@
+.Footer {
+    display: flex;
+    /* padding: 80px 0; */
+    font-size: 1rem;
+  }
+
+  .a {
+      font-size: 2rem;
+      display: inline-block;
+      padding: 120px 120px;
+      
+      /* transform: rotate( 30deg )       */
+    }
+
+    .openModalBtn {
+      justify-content: flex-end;
+      position: relative ;
+      left: 360px;
+      top: 25px;
+    }

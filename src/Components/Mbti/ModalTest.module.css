@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.modalContainer {
+    width: 700px;
+    height: 600px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    position: relative;
+    top: 30px;
+    
+}
+
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+
+.modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.modalContainer .footer button {
+    width: 120px;
+    height: 35px;
+    margin: 10px;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#closeBtn {
+    background-color: blueviolet;
+}
+
+.img {
+    position: relative;
+    top: 5px;
+    left: 280px;
+}
+
+h3 {
+    padding: 40px 40px 0px 40px;
+    font-size: 2.5rem;
+    color: navy;
+    font-weight: 1000;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+ul {
+    text-align: left;
+    padding: 30px
+
+}
+
+
